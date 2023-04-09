@@ -42,6 +42,3 @@ db.users.find({$and :[  {tweet_text : /UEFA/}, { 'user.Location' : "Ireland" }]}
 #Exporting Data from MongoDB to a CSV File - this is done on shell not mongosh
 mongoexport --port=27017 --db=sample --collection=users --out=football_tweets.csv
 # https://linuxhint.com/mongodb-export-all-collections/
-
-https://github.com/taha7ussein007/Coursera_Bigdata_UCSD/blob/master/Big%20Data%20Integration%20and%20Processing/soccer-tweet-analysis.ipynb
-
