@@ -5,7 +5,7 @@
 from itertools import cycle, islice
 from math import sqrt
 from numpy import array
-from pandas.tools.plotting import parallel_coordinates
+from pandas.plotting import parallel_coordinates
 from pyspark.ml.clustering import KMeans as KM
 from pyspark.mllib.linalg import DenseVector
 import matplotlib.pyplot as plt
