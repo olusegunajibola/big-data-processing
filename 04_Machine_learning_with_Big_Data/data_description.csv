@@ -1,0 +1,14 @@
+,Variable,Description,Unit of Measure
+0,rowID,unique number for each row,
+1,hpwren_timestamp,timestamp of measure,year-month-day hour:minute:second
+2,air_pressure,air pressure measured at the timestamp,hectopascals
+3,air_temp,air temperature measure at the timestamp,degrees Fahrenheit
+4,avg_wind_direction,wind direction averaged over the minute before the timestamp,"degrees, with 0 means coming from the North, and increasing clockwise"
+5,avg_wind_speed,wind speed averaged over the minute before the timestamp,meters per second
+6,max_wind_direction,highest wind direction in the minute before the timestamp,"degrees, with 0 being North and increasing clockwise"
+7,max_wind_speed,highest wind speed in the minute before the timestamp,meters per second
+8,min_wind_direction,smallest wind direction in the minute before the timestamp,"degrees, with 0 being North and inceasing clockwise"
+9,min_wind_speed,smallest wind speed in the minute before the timestamp,meters per second
+10,rain_accumulation,amount of accumulated rain measured at the timestamp,millimeters
+11,rain_duration,length of time rain has fallen as measured at the timestamp,seconds
+12,relative_humidity,relative humidity measured at the timestamp,percent
