@@ -1,0 +1,2 @@
+/daily_weather.csv
+C:\Users\USER\knime-workspace\coursera-big-data-practice\Example Workflow Practice\iris.csv

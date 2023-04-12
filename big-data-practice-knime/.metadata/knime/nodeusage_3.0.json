@@ -1,0 +1,161 @@
+
+{
+    "version": "4.7.2.v202303231026",
+    "created": "2023-04-09 02:11",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 12,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 6,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning"
+            },
+            {
+                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 1412,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3#Decision Tree Learner",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 272,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 357,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 65,
+                "nrcreated": 3,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 3288,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics"
+            },
+            {
+                "id": "org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader (deprecated)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 48,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 6928,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorerNodeFactory#Scorer (deprecated)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 9,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.table.TableNodeFactory#Interactive Table (local)",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.histogram.node.FixedColumnHistogramNodeFactory#Histogram (local)",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 67,
+                "nrcreated": 4,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.binner.BinnerNodeFactory#Numeric Binner",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 39,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.viz.condbox.ConditionalBoxPlotNodeFactory#Conditional Box Plot (local)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 8,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeFactory#Missing Value Column Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 2040,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.binner.BinnerNodeFactory#Numeric Binner"
+            },
+            {
+                "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 41,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 19087982,
+    "workflowsOpened": 8,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "launches": 2,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 38175964,
+    "crashes": 0,
+    "properlyShutDown": true
+}

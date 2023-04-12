@@ -1,0 +1,88 @@
+2023-04-09 02:11:31,055 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2023-04-09 02:11:31,056 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-04-09 02:11:31,056 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2023-04-09 02:11:31,056 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2023-04-09 02:11:31,056 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2023-04-09 02:11:31,060 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-04-09 02:11:31,060 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2023-04-09 02:11:31,060 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2023-04-09 02:11:31,060 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2023-04-09 02:11:31,060 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-04-09 02:21:49,884 : WARN  : ModalContext :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:21:49,890 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 3:8 : Some columns are ignored: too many/missing nominal values.
+2023-04-09 02:33:34,560 : WARN  : main :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:33:34,561 : WARN  : main :  : Node : Scatter Plot (local) : 3:8 : Some columns are ignored: too many/missing nominal values.
+2023-04-09 02:34:27,783 : WARN  : KNIME-Worker-5-Partitioning 3:5 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:34:27,987 : WARN  : KNIME-Worker-3-Decision Tree Learner 3:10 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:34:28,154 : WARN  : KNIME-Worker-4-Decision Tree Predictor 3:4 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:38:32,937 : WARN  : main :  : Node : CSV Reader : 3:12 : Please specify a file
+2023-04-09 02:39:21,236 : WARN  : main :  : Node : CSV Reader : 3:12 : Please specify a file
+2023-04-09 02:40:05,580 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" not found.
+2023-04-09 02:40:33,738 : WARN  : main :  : Node : CSV Reader : 3:12 : Please specify a file
+2023-04-09 02:40:33,741 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" not found.
+2023-04-09 02:40:33,988 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2023-04-09 02:40:34,220 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2023-04-09 02:40:34,238 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2023-04-09 02:40:47,514 : WARN  : main :  : Node : Color Manager : 3:2 : Column "class" has no nominal values set: execute predecessor or add Binner.
+2023-04-09 02:43:24,681 : WARN  : KNIME-Worker-9-File Reader (deprecated) 3:1 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:24,683 : WARN  : KNIME-Worker-9-File Reader (deprecated) 3:1 :  : Node : Scatter Plot (local) : 3:8 : Some columns are ignored: too many/missing nominal values.
+2023-04-09 02:43:24,702 : WARN  : KNIME-Worker-11-Partitioning 3:5 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:24,715 : WARN  : KNIME-Worker-9-Decision Tree Learner 3:10 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:24,769 : WARN  : KNIME-Worker-10-Decision Tree Predictor 3:4 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:52,276 : WARN  : main :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:52,277 : WARN  : main :  : Node : Scatter Plot (local) : 3:8 : Some columns are ignored: too many/missing nominal values.
+2023-04-09 02:43:57,636 : WARN  : KNIME-Worker-11-Partitioning 3:5 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:57,645 : WARN  : KNIME-Worker-9-Decision Tree Learner 3:10 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 02:43:57,663 : WARN  : KNIME-Worker-10-Decision Tree Predictor 3:4 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-09 17:09:00,814 : WARN  : main :  : Node : Histogram (local) : 4:2 : Please define the binning column.
+2023-04-09 23:39:54,663 : WARN  : main :  : Node : Numeric Binner : 4:4 : No column select for binning.
+2023-04-09 23:46:02,105 : WARN  : main :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:46:41,473 : WARN  : main :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:47:06,051 : WARN  : KNIME-Worker-19-Numeric Binner 4:4 :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:48:40,930 : WARN  : main :  : Node : Histogram (local) : 4:5 : Please define the binning column.
+2023-04-09 23:49:56,463 : WARN  : main :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:49:56,463 : WARN  : main :  : Node : Histogram (local) : 4:5 : Please define the binning column.
+2023-04-09 23:49:58,246 : WARN  : main :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:49:58,246 : WARN  : main :  : Node : Histogram (local) : 4:5 : Please define the binning column.
+2023-04-09 23:50:00,966 : WARN  : main :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:50:00,967 : WARN  : main :  : Node : Histogram (local) : 4:5 : Please define the binning column.
+2023-04-09 23:50:46,252 : WARN  : KNIME-Worker-20-Numeric Binner 4:4 :  : Node : Numeric Binner : 4:4 : Bin name "1- N" is used for different intervals.
+2023-04-09 23:58:42,568 : WARN  : main :  : Node : Numeric Binner : 4:6 : No column select for binning.
+2023-04-10 00:06:57,513 : WARN  : main :  : Node : Conditional Box Plot (local) : 4:7 : No nominal column selected. Column low_humidity_day_9am_binned chosen.
+No numeric column selected. Column number chosen.
+2023-04-10 02:11:24,198 : WARN  : main :  : Node : Histogram (local) : 5:2 : Please define the binning column.
+2023-04-10 02:16:33,241 : WARN  : main :  : Node : Histogram (local) : 5:4 : Please define the binning column.
+2023-04-10 02:18:26,981 : WARN  : KNIME-Worker-28-Missing Value 5:3 :  : Node : Missing Value : 5:3 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "max_wind_speed_9am" still contains missing values.
+Column "rain_duration_9am" still contains missing values.
+Column "max_wind_direction_9am" still contains missing values.
+Column "rain_accumulation_9am" still contains missing values.
+Column "air_pressure_9am" still contains missing values.
+Column "avg_wind_speed_9am" still contains missing values.
+Column "avg_wind_direction_9am" still contains missing values.
+2023-04-10 02:20:43,787 : WARN  : KNIME-Worker-30-Missing Value 5:3 :  : Node : Missing Value : 5:3 : Column "max_wind_speed_9am" still contains missing values.
+Column "rain_duration_9am" still contains missing values.
+Column "max_wind_direction_9am" still contains missing values.
+Column "rain_accumulation_9am" still contains missing values.
+Column "air_pressure_9am" still contains missing values.
+Column "avg_wind_speed_9am" still contains missing values.
+Column "avg_wind_direction_9am" still contains missing values.
+2023-04-10 02:23:21,185 : WARN  : KNIME-Worker-32-Missing Value 5:3 :  : Node : Missing Value : 5:3 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-04-10 16:01:04,709 : WARN  : KNIME-Worker-35-Missing Value 6:2 :  : Node : Missing Value : 6:2 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-04-10 16:03:36,178 : WARN  : main :  : Node : Numeric Binner : 6:3 : No column select for binning.
+2023-04-10 16:19:27,735 : WARN  : main :  : Node : Color Manager : 6:7 : Selected column "low_humidity_day" with default nominal color mapping.
+2023-04-10 16:21:35,851 : WARN  : main :  : Node : Partitioning : 6:8 : No sampling method selected
+2023-04-10 16:23:46,375 : WARN  : main :  : Node : Decision Tree Learner : 6:9 : Guessing target column: "low_humidity_day".
+2023-04-10 16:26:31,901 : WARN  : main :  : DataTableSpec : Decision Tree Predictor : 6:10 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-10 16:26:40,210 : WARN  : KNIME-Worker-56-Decision Tree Predictor 6:10 :  : DataTableSpec : Decision Tree Predictor : 6:10 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-04-11 13:03:47,513 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2023-04-11 13:03:47,514 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2023-04-11 13:03:47,515 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2023-04-11 13:03:47,516 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-04-11 13:05:43,290 : WARN  : main :  : Node : Scorer : 3:11 : No columns selected yet.
